@@ -2,7 +2,7 @@
 import re
 
 # 将正则表达式编译
-pattern = re.compile(r'hello', re.I)
+pattern = re.compile(r'hello', re.I)  # re.I：忽略大小写
 # 通过match匹配
 print(dir(pattern))
 rest = pattern.match('Hello world!')
